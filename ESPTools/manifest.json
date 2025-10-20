@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "label": "Factory Firmware",
       "parts": [
         {
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "label": "OTA Firmware",
       "parts": [
         {
