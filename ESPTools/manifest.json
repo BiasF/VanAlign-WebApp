@@ -1,0 +1,29 @@
+{
+  "name": "VanAlign ESP Firmware",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "label": "Factory Firmware",
+      "parts": [
+        {
+          "path": "firmware/firmware.factory.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "label": "OTA Firmware",
+      "parts": [
+        {
+          "path": "firmware/firmware.ota.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "new_install_improvements": true,
+  "homepage": "https://deine-webseite.de",
+  "documentation": "https://deine-webseite.de/docs"
+}

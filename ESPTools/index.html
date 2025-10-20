@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>VanAlign ESP Webflasher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; text-align: center; margin: 0; padding: 0; }
+    .container { max-width: 400px; margin: 3em auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 2em; }
+    h1 { margin-bottom: 1em; }
+    #esp-flasher-status { margin-top: 1em; color: #1976d2; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>VanAlign ESP Webflasher</h1>
+    <p>Flashen Sie Ihre eigene VanAlign Firmware direkt auf Ihr ESP-Gerät.</p>
+    <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
+    <div id="esp-flasher-status"></div>
+  </div>
+  <script type="module" src="https://unpkg.com/esp-web-tools@latest/dist/web/install-button.js"></script>
+</body>
+</html>
